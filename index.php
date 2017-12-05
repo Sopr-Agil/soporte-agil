@@ -30,6 +30,6 @@ function handler($view ='') {
             default: $obj->html(VIEW_HOME);
                 
     }//switch
-    unset($obj);
+//    unset($obj);
 }//handler
 ?>
