@@ -23,7 +23,13 @@ function handler($view ='') {
                 echo $users->getUsers();
                 $obj->html($view);                
                 break;
+            case VIEW_LOGIN:$obj->html($view);                
+                break;
+            case VIEW_SEMAFORO:$obj->html($view);                
+                break;
             default: $obj->html(VIEW_HOME);
+                
     }//switch
+    unset($obj);
 }//handler
 ?>
