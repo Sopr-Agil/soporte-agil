@@ -1,0 +1,201 @@
+body
+{
+	/*background-image: #ececec url(img/bg-header-t.gif) repeat-x;/
+	background-image: url(../img/bg-header-t.gif);
+	background-repeat:repeat-x;*/
+	
+	/*background:#ececec url(../Images/fondo_ajax.gif) repeat-x;*/
+	
+	background:#ececec url(assets/images/fndpage.jpg) repeat;
+	/*color:#6a6a6a;*/
+	font:12px/14px Helvetica, Arial, sans-serif;
+	margin:0;
+}
+.alinear{ float:left; }
+.oculto
+         {
+            visibility:hidden;
+         }
+.logo { top:25px; position:absolute; right:15px; }       
+.menu { top:25px; position:absolute; left:15px; } 
+.tblHeader { margin:0 auto; color:White; }
+
+.dg{ width:540px; margin:0 auto; text-align:left; }
+.titulo { font-weight:bold; font-size:20px; width:100%; height: 31px; text-align:center; }
+.chkP{ margin:0 0 0 20px;}
+.chkSP{ margin:0 0 0 40px; }
+.ocultar { display:none; }
+.usuario { text-align:left; }
+/*.tblheader{ width: 524px; font-weight:bold; }*/
+.login{ position:absolute; left:360px; top: 17px; width:423px; margin: 0 auto;; 
+color:White; font-weight:bold; }
+.bold{ font-weight:bold; }
+.centrar{ margin:0 auto; }
+.content{ width:95%; margin:0 auto;}
+/* CSS TIME */
+div.time {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	background-color: #DBDFE3;
+	position:absolute;
+	width:150px;
+	height:auto;
+	z-index:1;
+	cursor: hand;
+	visibility: hidden;
+	border: 1px solid #000000;
+	filter:revealTrans() progid:DXImageTransform.Microsoft.dropshadow(OffX=5, OffY=5, Color='#aeaeae', Positive='true') ;
+}
+table.time {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000033;
+	border: none;
+	width:100%;
+	cursor: hand;
+}
+td.time {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	border: 1px solid #000033;
+	text-align: center;
+}
+td.closew {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	border: 1px none #000033;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: black;
+	font-variant: small-caps;
+	text-align: center;
+	width: 20%;
+	cursor: hand;
+}
+.select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	border: 1px none #000033;
+	color: #000000;
+}
+.accordionHeader
+{
+    /*border: 1px solid #2F4F4F;*/
+    color: #FFFFFF;
+    /*background-color: #4C71A6;*/
+    background-image:url(../Images/bg2.png);
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.accordionLink
+{
+ background-color: #D3DEEF;
+    color: white;
+}
+
+.watermark {
+	background: #FFAAFF;
+}
+
+.popupControl {
+	background-color:#AAD4FF;
+	position:absolute;
+	visibility:hidden;
+	border-style:solid;
+	border-color: Black;
+	border-width: 2px;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.sampleStyleA {
+	background-color:#FFF;
+}
+
+.sampleStyleB {
+	background-color:#FFF;
+	font-family:monospace;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.sampleStyleC {
+	background-color:#ddffdd;
+	font-family:sans-serif;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.sampleStyleD {
+	background-color:Blue;
+	color:White;
+	font-family:Arial;
+	font-size:10pt;
+}
+.modalBackground 
+{
+    /*background-color:Gray;*/
+    background-color:Grey;	        
+    filter:alpha(opacity=60);
+    opacity:0.60;         
+}
+.updateProgress
+{
+    border-width:1px; 
+    border-style:solid; 
+    background-color:#FFFFFF; 
+    position:absolute; 
+    width:45px; 
+    height:45px;    
+}
+.css_captura
+{
+	border-width:1px; 
+    border-style:solid; 
+    background-color:#FF3300; 
+    position:absolute; 
+    width:500px; /*tamaño ventana*/
+    height:500px;  /*altura*/  
+}
+.updateProgressMessage
+{
+    margin:3px; 
+    font-family:Trebuchet MS; 
+    font-size:small; 
+    vertical-align: middle;
+}  
+.wireFrame {
+display: 	none; 
+overflow: hidden; 
+z-index: 2; 
+background-color: #FFFFFF; 
+border: solid 1px #D0D0D0;
+}
