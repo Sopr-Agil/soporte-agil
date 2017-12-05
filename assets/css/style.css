@@ -6,7 +6,7 @@ body
 	
 	/*background:#ececec url(../Images/fondo_ajax.gif) repeat-x;*/
 	
-	background:#ececec url(assets/images/fndpage.jpg) repeat;
+	background:#ececec url(/soporte-agil/assets/images/fndpage.jpg) repeat;
 	/*color:#6a6a6a;*/
 	font:12px/14px Helvetica, Arial, sans-serif;
 	margin:0;
